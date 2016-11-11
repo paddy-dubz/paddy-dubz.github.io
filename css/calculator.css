@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    background: url(../img/wood.jpg) no-repeat;
+    background-size: 100% ;
+}
+
+#calculator {
+    background: -webkit-linear-gradient(left top, lightgray, grey);
+    border: 5px dimgray solid;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+}
+
+#container {
+    width: 312px;
+    margin: 12% auto;
+}
+
+#left{
+    height: 60px;
+    width: 115px;
+    float: left;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    background: -webkit-linear-gradient(left top, darkgrey, grey);
+}
+
+#middle {
+    height: 60px;
+    width: 30px;
+    float: left;
+    margin: 4px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    background: -webkit-linear-gradient(left top, darkgrey, grey);
+}
+
+#right{
+    height: 60px;
+    width: 115px;
+    margin: 4px;
+    float: left;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    background: -webkit-linear-gradient(left top, darkgrey, grey);
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    background-color: #e0e0e0;
+    font-size: 43px;
+    font-weight: 200;
+    color: black;
+    border-radius: 10px;
+}
+
+#bPlus,
+#bMinus,
+#bMultiply,
+#bDivide,
+#bEquals    {
+    width: 50px;
+    height: 70px;
+    background-color: #f39331;
+    color: white;
+}
+
+#bClear {
+    width: 231px;
+    background-color: #d6d6d6;
+}
+
+#b0 {
+    width: 152px;
+}

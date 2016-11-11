@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Simon</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href="css/simon.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="board" class="well">
+        <button id="0" class="button green"></button>
+        <button id="1" class="button red"></button>
+        <button id="2" class="button yellow"></button>
+        <button id="3" class="button blue"></button>
+            <div id="center">
+                <h4>Score</h4>
+                <span id="screen">0</span>
+                    <div id="controls">
+                        <div>
+                            <h4>Start</h4>
+                            <button id="start"></button>
+                        </div>
+                        <div>
+                            <h4>Reset</h4>
+                            <button id="reset"></button>
+                        </div>
+                    </div>
+            </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/simon.js"></script>
+
+</body>
+</html>

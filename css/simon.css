@@ -1,0 +1,120 @@
+body    {
+    text-align: center;
+    background: url("http://www.natewren.com/themes/wallpaper2/radpack/radpack_3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#board    {
+    width: 565px;
+    height: 565px;
+    position: relative;
+    margin: 10vh auto 0;
+    border: solid #161616 3px;
+    border-radius: 50%;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    box-shadow: 0 0 30px pink;
+}
+
+#center    {
+    height: 45%;
+    width: 45%;
+    position: absolute;
+    top: 27.5%;
+    left: 27.5%;
+    border-radius: 50%;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    padding-top: 8rem;
+}
+
+#controls    {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4    {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    color: white;
+}
+
+#screen    {
+    background: #380000;
+    width: 10rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #ff3d3d;
+    text-shadow: 0 0 7px red;
+    display: inline-block;
+}
+
+#start, #reset    {
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+}
+
+#start    {
+    border: solid darkgoldenrod 2px;
+    background: yellow;
+}
+
+#start:active    {
+    background: darkgoldenrod;
+}
+
+#reset    {
+    border: solid darkred 2px;
+    background: red;
+}
+
+#reset:active    {
+    background: darkred;
+}
+
+/*Disable button border in Chrome*/
+button:focus    {
+    outline: 0;
+}
+
+.button    {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    float: left;
+    opacity: .7;
+}
+
+.green    {
+    background: -webkit-linear-gradient(top, #008000, #004600);
+    border: solid #004600 1px;
+    border-top-left-radius: 100%;
+}
+
+.red    {
+    background: -webkit-linear-gradient(top, red, darkred);
+    border: solid darkred 1px;
+    border-top-right-radius: 100%;
+}
+
+.yellow    {
+    background: -webkit-linear-gradient(top, yellow, darkgoldenrod);
+    border: solid darkgoldenrod 1px;
+    border-bottom-left-radius: 100%;
+}
+
+.blue    {
+    background: -webkit-linear-gradient(top, blue, darkblue);
+    border: solid darkblue 1px;
+    border-bottom-right-radius: 100%;
+}
+
+.lightup    {
+    border: solid white 2px;
+    box-shadow: white 0 0 50px;
+    opacity: 1;
+}
