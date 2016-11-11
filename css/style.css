@@ -440,6 +440,16 @@ label {
 	margin-top: 15px;
 	font-size: 15px;
 }
+
+#contact .submit {
+	background: #BA3523;
+	border: 0;
+	border-radius: 4px;
+	padding: 10px 20px;
+	color: #f6f6f6;
+	margin-top: 15px;
+	font-size: 15px;
+}
 #contact .btn-default:hover, #contact .btn-default:focus {
 	color: #f6f6f6;
 	background: #741f15;
